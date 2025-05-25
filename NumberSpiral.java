@@ -38,3 +38,7 @@ public class NumberSpiral {
         System.out.print(output);
     }
 }
+//A number spiral is an infinite grid whose upper-left square has number 1. Here are the first five layers of the spiral:
+//The spiral is constructed such that the largest number in each layer is at the bottom right corner,
+// and the numbers decrease as you move left or up from that corner. The logic determines whether the current layer is even or odd
+// and calculates the value based on the position within that layer.
