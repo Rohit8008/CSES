@@ -40,3 +40,16 @@ public class ChessboardandQueens {
         }
     }
 }
+// This code reads an 8x8 chessboard configuration and counts the number of ways to place 8 queens on the board
+// such that no two queens threaten each other. It uses backtracking to explore all possible placements,
+// while maintaining arrays to track attacked columns and diagonals. The solution is efficient and handles the constraints of the problem.
+// The code is structured to read input, process the board, and output the total number of valid queen placements.
+// The approach ensures that all placements are checked, and the use of boolean arrays allows for quick checks of threats,
+// making the solution feasible within the problem's constraints. The final count of valid placements is printed as the output.
+// The code is designed to handle the problem of placing queens on a chessboard such that no two queens threaten each other.
+// The solution uses backtracking to explore all possible placements of queens on the board,
+// ensuring that the constraints of the problem are met. The use of boolean arrays for columns and diagonals
+// allows for efficient checking of threats, making the solution both effective and efficient.
+// The time complexity is O(8!), which is manageable given the constraints of the problem.
+// The code is structured to read the chessboard configuration, process the placements of queens,
+// and output the total number of valid configurations. The approach is clear and concise, ensuring that all edge cases are handled.

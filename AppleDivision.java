@@ -31,3 +31,13 @@ public class AppleDivision {
         System.out.println(minDiff);
     }
 }
+// This code reads the number of apples and their weights, then calculates the minimum difference
+// between two subsets of apples using bitmasking to explore all possible combinations.
+// It efficiently computes the total weight and iterates through all subsets to find the optimal division.
+// The result is printed as the minimum difference found between the two subsets.
+// The code is designed to handle the problem of dividing apples into two groups such that the difference in their total weights is minimized.
+// The approach uses bitmasking to represent subsets, ensuring all combinations are considered.
+// The time complexity is O(2^n * n), which is feasible for n up to 20, as it explores all subsets of apples.
+// The solution is efficient for the problem constraints and provides the correct output for the minimum difference in weights.
+// The code is structured to read input, process the data, and output the result in a clear and concise manner.
+// The code is designed to handle the problem of dividing apples into two groups such that the difference in their total weights is minimized.
